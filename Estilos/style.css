@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/*BOTÃO*/
+
+button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #D4AF37; 
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #d4af377a;
+}
+
+/*PORTIFÓLIO*/
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project {
+    width: 250px;
+    height: 150px;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/*CARDS*/
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #D4AF37;
+}
+
+/*DIFERENCIAIS8*/
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/*PROCESSO*/
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fade {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.8s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
