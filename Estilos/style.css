@@ -52,7 +52,7 @@ p {
 
 button {
     margin-top: 60px;
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 15.5px 45px;
     background: linear-gradient(to right, #D4AF37, #d2c390); 
     letter-spacing: 2px;
@@ -125,6 +125,12 @@ h2#principal {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
+div.itens {
+    display: inline-block;
+    padding-right: 13px;
+    color: #d0bc7c;
+    margin-bottom: 20px;
+}
 
 /*PROCESSO*/
 
@@ -157,5 +163,8 @@ h2#cta {
 }
 
 button.cta {
-    padding: 15.5px 45px;
+    padding: 16.5px 63px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #000;
 }
