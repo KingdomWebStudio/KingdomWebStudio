@@ -58,3 +58,12 @@ gsap.utils.toArray("section:not(.hero)").forEach(section => {
         }
     );
 });
+
+gsap.to(".gold-line", {
+  width: "80%",
+  duration: 1.5,
+  scrollTrigger: {
+    trigger: ".gold-line",
+    start: "top 80%"
+  }
+});
