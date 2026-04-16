@@ -42,9 +42,8 @@ section {
 
 /* LOGO */
 .logo img {
-  width: 60px;
+  width: 400px;
   margin-bottom: 20px;
-  filter: drop-shadow(0 0 10px gold);
 }
 
 /* TIPOGRAFIA */
