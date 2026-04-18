@@ -35,3 +35,25 @@ gsap.utils.toArray("section:not(.hero)").forEach(section => {
     }
   );
 });
+
+const tl = gsap.timeline();
+
+tl.from(".hero .logo img", {
+  y: -30,
+  opacity: 0,
+  duration: 0.8
+})
+.from(".hero h1", {
+  y: 50,
+  opacity: 0,
+  duration: 1
+}, "-=0.4")
+.from(".hero p", {
+  y: 30,
+  opacity: 0,
+  duration: 1
+}, "-=0.6")
+.fromTo(".hero button",
+  { opacity: 0, scale: 0.8 },
+  { opacity: 1, scale: 1, duration: 0.8 },
+"-=0.6");
