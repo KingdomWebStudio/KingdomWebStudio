@@ -10,25 +10,38 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* PARTÍCULAS */
-.particles {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  overflow: hidden;
+section {
+  position: relative;
+  z-index: 1;
+  padding: 100px 20px;
+  text-align: center;
 }
 
-.particles span {
+.particles-area {
+  position: absolute;
+
+  width: 300px;
+  height: 200px;
+
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  pointer-events: none;
+}
+
+.particles-area span {
   position: absolute;
   width: 2px;
   height: 2px;
   background: #D4AF37;
   border-radius: 50%;
-  opacity: 0.8;
+
+  box-shadow: 0 0 6px #D4AF37;
+
   animation: floatUp linear infinite;
 }
 
-/* movimento */
 @keyframes floatUp {
   from {
     transform: translateY(0);
@@ -38,7 +51,7 @@ body {
     opacity: 1;
   }
   to {
-    transform: translateY(-200px);
+    transform: translateY(-150px);
     opacity: 0;
   }
 }

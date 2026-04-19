@@ -46,8 +46,8 @@ tl.from(".hero .logo img", {
 
 //Particúlas
 
-function createParticles(sectionSelector, amount = 40) {
-  const container = document.querySelector(sectionSelector + " .particles");
+function createFocusedParticles(selector, amount = 40) {
+  const container = document.querySelector(selector);
 
   for (let i = 0; i < amount; i++) {
     const particle = document.createElement("span");
@@ -55,8 +55,8 @@ function createParticles(sectionSelector, amount = 40) {
     particle.style.left = Math.random() * 100 + "%";
     particle.style.top = Math.random() * 100 + "%";
 
-    particle.style.animationDuration = (Math.random() * 5 + 5) + "s";
-    particle.style.animationDelay = Math.random() * 5 + "s";
+    particle.style.animationDuration = (Math.random() * 4 + 4) + "s";
+    particle.style.animationDelay = Math.random() * 3 + "s";
 
     particle.style.opacity = Math.random();
 
@@ -64,11 +64,11 @@ function createParticles(sectionSelector, amount = 40) {
   }
 }
 
-// APLICAR ONDE QUER
-createParticles(".hero", 60);
-createParticles(".value", 30);
-createParticles(".services", 60);
-createParticles(".differentials", 60);
-createParticles(".process", 60);
-createParticles(".about", 60);
-createParticles(".cta", 50);
+// APLICA EM ÁREAS ESPECÍFICAS
+createFocusedParticles(".hero .particles-area", 50);
+createFocusedParticles(".value .particles-area", 50);
+createFocusedParticles(".services .particles-area", 50);
+createFocusedParticles(".differentials .particles-area", 50);
+createFocusedParticles(".process .particles-area", 50);
+createFocusedParticles(".about .particles-area", 50);
+createFocusedParticles(".cta .particles-area", 50);
