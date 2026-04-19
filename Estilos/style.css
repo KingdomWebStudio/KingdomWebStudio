@@ -20,8 +20,8 @@ section {
 .particles-area {
   position: absolute;
 
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 
   top: 60%;
   left: 50%;
@@ -32,8 +32,8 @@ section {
 
 .particles-area span {
   position: absolute;
-  width: 2px;
-  height: 2px;
+  width: 1.5px;
+  height: 1.5px;
   background: #D4AF37;
   border-radius: 50%;
 
@@ -42,12 +42,13 @@ section {
   animation: floatUp linear infinite;
 }
 
+
 @keyframes floatUp {
   from {
     transform: translateY(0);
     opacity: 0;
   }
-  50% {
+    50% {
     opacity: 1;
   }
   to {

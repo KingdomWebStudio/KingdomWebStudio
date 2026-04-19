@@ -46,7 +46,7 @@ tl.from(".hero .logo img", {
 
 //Particúlas
 
-function createFocusedParticles(selector, amount = 40) {
+function createFocusedParticles(selector, amount = 10) {
   const container = document.querySelector(selector);
 
   for (let i = 0; i < amount; i++) {
@@ -66,9 +66,11 @@ function createFocusedParticles(selector, amount = 40) {
 
 // APLICA EM ÁREAS ESPECÍFICAS
 createFocusedParticles(".hero .particles-area", 50);
-createFocusedParticles(".value .particles-area", 50);
-createFocusedParticles(".services .particles-area", 50);
+createFocusedParticles(".hero .particles-area ", 40);
+createFocusedParticles(".hero .particles-area", 60);
+createFocusedParticles(".value .particles-area", 30);
+createFocusedParticles(".services .particles-area", 60);
 createFocusedParticles(".differentials .particles-area", 50);
-createFocusedParticles(".process .particles-area", 50);
+createFocusedParticles(".process .particles-area", 30);
 createFocusedParticles(".about .particles-area", 50);
 createFocusedParticles(".cta .particles-area", 50);
