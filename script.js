@@ -46,31 +46,3 @@ tl.from(".hero .logo img", {
 
 //Particúlas
 
-function createFocusedParticles(selector, amount = 10) {
-  const container = document.querySelector(selector);
-
-  for (let i = 0; i < amount; i++) {
-    const particle = document.createElement("span");
-
-    particle.style.left = Math.random() * 100 + "%";
-    particle.style.top = Math.random() * 100 + "%";
-
-    particle.style.animationDuration = (Math.random() * 4 + 4) + "s";
-    particle.style.animationDelay = Math.random() * 3 + "s";
-
-    particle.style.opacity = Math.random();
-
-    container.appendChild(particle);
-  }
-}
-
-// APLICA EM ÁREAS ESPECÍFICAS
-createFocusedParticles(".hero .particles-area", 50);
-createFocusedParticles(".hero .particles-area ", 40);
-createFocusedParticles(".hero .particles-area", 60);
-createFocusedParticles(".value .particles-area", 30);
-createFocusedParticles(".services .particles-area", 60);
-createFocusedParticles(".differentials .particles-area", 50);
-createFocusedParticles(".process .particles-area", 30);
-createFocusedParticles(".about .particles-area", 50);
-createFocusedParticles(".cta .particles-area", 50);

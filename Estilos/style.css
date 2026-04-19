@@ -17,46 +17,6 @@ section {
   text-align: center;
 }
 
-.particles-area {
-  position: absolute;
-
-  width: 400px;
-  height: 400px;
-
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  pointer-events: none;
-}
-
-.particles-area span {
-  position: absolute;
-  width: 1.5px;
-  height: 1.5px;
-  background: #D4AF37;
-  border-radius: 50%;
-
-  box-shadow: 0 0 6px #D4AF37;
-
-  animation: floatUp linear infinite;
-}
-
-
-@keyframes floatUp {
-  from {
-    transform: translateY(0);
-    opacity: 0;
-  }
-    50% {
-    opacity: 1;
-  }
-  to {
-    transform: translateY(-150px);
-    opacity: 0;
-  }
-}
-
 /* LOGO */
 .logo img {
   width: 400px;
