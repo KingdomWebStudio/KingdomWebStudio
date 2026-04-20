@@ -31,8 +31,9 @@ section {
 
 .img-01 {
   position: absolute;
-  opacity: 0.5;
-  transform: translate(15%, 239%);
+  opacity: 0.3;
+  transform: translate(141%, 283%);
+  
 }
 
 .img-02 {
