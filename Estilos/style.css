@@ -19,19 +19,78 @@ section {
 
 /*IMAGENS*/
 
-.img-left {
+.img {
+  width:100px;
+  height: 100px;
+}
+
+.width {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-01 {
   position: absolute;
-  transform: translate(-0%, 29%);
   opacity: 0.5;
-  width: 10px;
-  height: 10px;
-  
+  transform: translate(15%, 239%);
 }
 
-img {
-  
+.img-02 {
+  position: absolute;
+  opacity: 0.5;
+  transform: translate(15%, 239%);
+
 }
 
+.img-03 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.img-04 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.img-05 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.img-06 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.img-07 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.img-08 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.img-09 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.img-10 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.img-11 {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.img-12 {
+  position: absolute;
+  opacity: 0.5;
+}
 /* LOGO */
 .logo img {
   width: 400px;
