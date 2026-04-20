@@ -17,6 +17,13 @@ section {
   text-align: center;
 }
 
+/*IMAGENS*/
+
+.img-left {
+  position: absolute;
+  transform: translate(-28%, 128%);
+}
+
 /* LOGO */
 .logo img {
   width: 400px;
