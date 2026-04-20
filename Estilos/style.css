@@ -21,7 +21,15 @@ section {
 
 .img-left {
   position: absolute;
-  transform: translate(-28%, 128%);
+  transform: translate(-0%, 29%);
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+  
+}
+
+img {
+  
 }
 
 /* LOGO */
