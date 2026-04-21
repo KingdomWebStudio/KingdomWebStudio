@@ -46,3 +46,4 @@ tl.from(".hero .logo img", {
 
 //Particúlas
 
+particlesJS.load('particles-container', 'particlesjs-config.json');

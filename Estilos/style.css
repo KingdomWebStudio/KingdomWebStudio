@@ -8,6 +8,7 @@ body {
   background: #000;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  margin: 0px;
 }
 
 section {
@@ -15,6 +16,21 @@ section {
   z-index: 1;
   padding: 100px 20px;
   text-align: center;
+}
+
+/*PARTÍCULAS*/
+
+canvas { 
+  display: block;
+}
+#particles-container { 
+  position: absolute; 
+  width: 80%; 
+  height: 70%; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: 100% 100%; 
+  transform: translate(29px, 214px);
 }
 
 /* LOGO */
