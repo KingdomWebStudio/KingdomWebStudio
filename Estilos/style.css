@@ -100,6 +100,15 @@ button {
   letter-spacing: 3.5px;
 }
 
+.shadow {
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #b29020, #f2e59b );
+  position: absolute;
+  transform: translate(-10px, -10px);
+  opacity: 1;
+  width: 8vw;
+}
+
 button:hover {
   box-shadow: 0 0 20px rgba(212,175,55,0.6);
 }
