@@ -1,0 +1,18 @@
+.box {
+  position: relative;
+  background: white;
+  z-index: 1;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  background: linear-gradient(45deg, red, blue);
+  filter: blur(20px);
+  opacity: 0.7;
+
+  transform: translateY(10px); /* desloca como se fosse sombra */
+}
