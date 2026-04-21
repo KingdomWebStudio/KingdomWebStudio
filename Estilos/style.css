@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background: #000;
   color: #fff;
@@ -35,7 +36,7 @@ canvas {
 
 /* LOGO */
 .logo img {
-  width: 35vw;
+  width: 36vw;
   margin-bottom: 25px;}
 
 /* TIPOGRAFIA */
@@ -88,13 +89,15 @@ p {
 /* BOTÃO */
 button {
   margin-top: 20px;
-  padding: 14px 40px;
-  background: linear-gradient(135deg, #D4AF37, #FFD700);
+  padding: 16.5px 35px;
+  background: linear-gradient(135deg, #b29020, #f2e59b);
   color: #000;
   border: none;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 4.5px;
   transition: 0.3s;
+  font-size: 1.7vw;
+  letter-spacing: 3.5px;
 }
 
 button:hover {
