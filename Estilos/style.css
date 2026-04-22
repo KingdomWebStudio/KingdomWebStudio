@@ -26,10 +26,9 @@ canvas {
 }
 #particles-container { 
   position: absolute; 
-  width: 80%; 
+  width: 90%; 
   height: 70%; 
   margin: auto;
-  margin: auto auto;
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: 100% 100%; 
@@ -39,7 +38,9 @@ canvas {
 /* LOGO */
 .logo img {
   width: 36vw;
-  margin-bottom: 25px;}
+  margin-bottom: 25px;
+  margin-top: -40px;
+}
 
 /* TIPOGRAFIA */
 h1, h2 {
