@@ -24,7 +24,7 @@ section {
 canvas { 
   display: block;
 }
-#particles-container { 
+.particles-container { 
   position: absolute; 
   width: 90%; 
   height: 70%; 
@@ -55,6 +55,7 @@ h1 {
 
 h2 {
   font-size: 26px;
+  letter-spacing: 7px;
 }
 
 p {
@@ -107,9 +108,10 @@ button {
 
 /*PORTIFÓLIO*/
 
-.pport {
-  margin-top: 0px;
-  margin-bottom: 30px;
+h2.pport {
+  margin-top: -47px;
+  margin-bottom: 56px;
+  font-weight: 100;
   
 }
 
@@ -126,6 +128,19 @@ img:hover {
 
 button:hover {
   box-shadow: 0 0 20px rgba(212,175,55,0.6);
+}
+
+/*VALUE*/
+
+.hvalue {
+  color: white;
+  font-weight: 500;
+  font-size: 5vw; 
+  letter-spacing: 2px;
+}
+
+.pvalue {
+  
 }
 
 /* GRID */
