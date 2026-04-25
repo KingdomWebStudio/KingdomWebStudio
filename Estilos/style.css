@@ -105,9 +105,23 @@ button {
 
 }
 
+/*PORTIFÓLIO*/
+
+.pport {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  
+}
+
 img.imgport {
-  width: 100%;
+  width: 95%;
   max-width:1000px;
+  border-radius: 10px;
+}
+
+img:hover {
+  scale: 1.1;
+  transition: 0.5s;
 }
 
 button:hover {
