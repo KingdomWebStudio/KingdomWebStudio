@@ -35,17 +35,6 @@ canvas {
   transform: translate(29px, 214px);
 }
 
-#particles-container-02 { 
-  position: absolute; 
-  width: 90%; 
-  height: 70%; 
-  margin: auto;
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: 100% 100%; 
-  transform: translate(29px, 214px);
-}
-
 /* LOGO */
 .logo img {
   width: 36vw;
