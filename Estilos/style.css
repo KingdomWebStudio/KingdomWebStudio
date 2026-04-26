@@ -115,15 +115,22 @@ h2.pport {
   
 }
 
-img.imgport {
-  width: 95%;
-  max-width:1000px;
-  border-radius: 10px;
+.projects {
+  display: flex;
+
 }
 
-img:hover {
+img.imgport {
+  width: 95%;
+  max-width:500px;
+  border-radius: 25px;
+  margin-bottom:10px;
+}
+
+img.imgport:hover {
   scale: 1.1;
   transition: 0.5s;
+  
 }
 
 button:hover {
@@ -147,8 +154,7 @@ button:hover {
 .card {
   display: flex;
   flex-direction: row;
-  width: 20vw;
-  max-width: 500px;
+  width: 0.25vw;
 }
 
 /* RESPONSIVO */
