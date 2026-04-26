@@ -144,27 +144,11 @@ button:hover {
 }
 
 /* GRID */
-.projects, .cards, .steps {
+.card {
   display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.project, .card {
-  background: #111;
-  padding: 20px;
-  border: 1px solid #333;
-}
-
-.project:hover, .card:hover {
-  transform: scale(1.05);
-  border-color: #D4AF37;
-}
-
-.list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  flex-direction: row;
+  width: 20vw;
+  max-width: 500px;
 }
 
 /* RESPONSIVO */
