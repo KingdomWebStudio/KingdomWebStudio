@@ -162,12 +162,14 @@ button:hover {
 img.imgcard {
   width: 225px;
   margin: 15px;
-  box-shadow: 4px 5px 10px #d4af371f;
+  box-shadow: 4px 5px 10px rgba(212, 175, 55, 0.125);
+  border-radius: 8px;
 }
 
 img.imgcard:hover {
   scale:1.1;
-  transition: 0.5s;
+  transition: 0.8s;
+  box-shadow: 0px 0px 20px rgba(184, 135, 11, 0.455);
 }
 
 /*DIFERENCIAIAS*/
@@ -186,6 +188,7 @@ img.imgcard:hover {
   font-weight: 400;
   position: relative;
   padding-left: 28px;
+  border-radius: 5px;
  }
 
  div.item:hover {
@@ -204,7 +207,8 @@ img.imgcard:hover {
 
 .img-process:hover {
   scale: 1.1;
-  box-shadow: 0px 0px 20px #;
+  box-shadow: 0px 0px 20px #d4af373a;
+  border-radius: 7px;
   transition: 0.8s;
 }
 
