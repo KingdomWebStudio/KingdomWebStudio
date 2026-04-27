@@ -190,7 +190,7 @@ img.imgcard:hover {
 
  div.item:hover {
   scale:1.2;
-  text-shadow: 0px 0px 10px #d4af37fa;
+  text-shadow: 0px 0px 10px #d4af37dc;
   transition: 0.8s;
  }
 
@@ -199,6 +199,15 @@ img.imgcard:hover {
   color: #b5996a;
   padd
 }
+
+/*PROCESSO*/
+
+.img-process:hover {
+  scale: 1.1;
+  box-shadow: 0px 0px 20px #d4af37fa;
+  transition: 0.8s;
+}
+
 
 /* RESPONSIVO */
 @media (max-width: 768px) {
