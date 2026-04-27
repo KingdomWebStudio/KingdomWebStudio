@@ -188,9 +188,9 @@ img.imgcard:hover {
   padding-left: 28px;
  }
 
- div.item:hover {
+ div.item:hov#d4af37faer {
   scale:1.2;
-  text-shadow: 0px 0px 10px #d4af37dc;
+  text-shadow: 0px 0px 10px ;
   transition: 0.8s;
  }
 
@@ -204,7 +204,7 @@ img.imgcard:hover {
 
 .img-process:hover {
   scale: 1.1;
-  box-shadow: 0px 0px 20px #d4af37fa;
+  box-shadow: 0px 0px 20px ;
   transition: 0.8s;
 }
 
