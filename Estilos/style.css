@@ -136,7 +136,7 @@ img.imgport:hover {
 }
 
 button:hover {
-  box-shadow: 0 0 20px rgba(212,175,55,0.6);
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.762);
 }
 
 /*VALUE*/
@@ -222,6 +222,7 @@ img.imgcard:hover {
 .h2-cta {
   font-size: 4.3vw;
   font-weight: 500;
+  margin-bottom: 30px;
   letter-spacing: 4px;
 }
 
