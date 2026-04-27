@@ -212,6 +212,12 @@ img.imgcard:hover {
   transition: 0.8s;
 }
 
+/*LEAD*/
+
+.lead {
+  font-family: serif;
+  font-size: 1.55em;
+}
 
 /* RESPONSIVO */
 @media (max-width: 768px) {
