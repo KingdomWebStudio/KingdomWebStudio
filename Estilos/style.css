@@ -219,6 +219,8 @@ img.imgcard:hover {
   font-size: 1.55em;
 }
 
+
+
 /* RESPONSIVO */
 @media (max-width: 768px) {
   .projects, .cards, .steps {
