@@ -82,9 +82,22 @@ p {
 }
 
 /* LINHA */
+.dourado {  
+  width: 100vw;  
+  height: 3vh;
+
+}
+
 .gold-line {
-  display: block; 
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gold-line-port {
+  width: 60vw;
+  height: 2vh;
+  margin-top: -105px;
 }
 
 /* BOTÃO */
@@ -92,7 +105,7 @@ button {
   margin-top: 20px;
   padding: 16.5px 35px;
   background: linear-gradient(135deg, #e8a32cde, #f2e59b);
-  color: #6e4444;
+  color: #000;
   border: none;
   cursor: pointer;
   border-radius: 4.5px;
