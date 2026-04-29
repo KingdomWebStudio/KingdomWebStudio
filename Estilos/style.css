@@ -83,7 +83,8 @@ p {
 
 /* LINHA */
 .gold-line {
-    
+  display: block; 
+  
 }
 
 /* BOTÃO */
@@ -91,7 +92,7 @@ button {
   margin-top: 20px;
   padding: 16.5px 35px;
   background: linear-gradient(135deg, #e8a32cde, #f2e59b);
-  color: #000;
+  color: #6e4444;
   border: none;
   cursor: pointer;
   border-radius: 4.5px;
