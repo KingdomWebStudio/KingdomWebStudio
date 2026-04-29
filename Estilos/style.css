@@ -149,6 +149,23 @@ p {
   margin-top: 30px;
 }
 
+.gold-line-process {
+  width: 50vw;
+  height: 3vh;
+  margin-top: -100px;
+  transform: translateX(-15px);
+}
+
+.gold-line-division04{
+  width: 100vw;
+  height: 4vh;
+}
+
+.gold-line-division05 {
+  width: 100vw;
+  height: 5vh;
+}
+
 
 /* BOTÃO */
 button {
@@ -266,6 +283,10 @@ img.imgcard:hover {
 }
 
 /*PROCESSO*/
+
+.img-process {
+  margin-top: 30px;
+}
 
 .img-process:hover {
   scale: 1.1;
