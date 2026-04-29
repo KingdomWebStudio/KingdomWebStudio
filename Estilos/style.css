@@ -135,12 +135,18 @@ p {
 
 
 .gold-line-difent {
-  
+  width: 60vw;
+  height: 3vh;
+  margin-top: -90px;
+  transform:translateX(-25px)
 }
 
 
 .gold-line-division03 {
-  
+  width: 90vw;
+  height: 2vh;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 
@@ -232,9 +238,10 @@ img.imgcard:hover {
 .list {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-  gap: 20px 60px; /* espaço entre linhas e colunas */
+  gap: 25px 60px; /* espaço entre linhas e colunas */
   max-width: 800px;
   margin: 0 auto;
+  margin-top: 40px;
 }
  div.item {
   color: #fff;
