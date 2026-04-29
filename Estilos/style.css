@@ -85,6 +85,7 @@ p {
 .dourado {  
   width: 100vw;  
   height: 3vh;
+  margin-bottom: 25px;
 
 }
 
@@ -115,6 +116,8 @@ p {
 .gold-line-division01 {
   width: 900px;
   height: 1.5vh;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .gold-line-services {
@@ -124,9 +127,10 @@ p {
   transform: translateX(-18px);
 }
 
-.gold-line-divisio02{
+.gold-line-division02{
   width: 100vw;
-  height: 3vh;
+  height: 2vh;
+  margin-bottom: 40px;
 } 
 
 
