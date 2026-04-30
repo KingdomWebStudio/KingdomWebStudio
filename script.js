@@ -47,3 +47,9 @@ tl.from(".hero .logo img", {
 //Particúlas
 
 particlesJS.load('particles-container', 'particlesjs-config.json');
+particlesJS.load('particles-container01', 'particlesjs-config.json - 01');
+particlesJS.load('particles-container02', 'particlesjs-config.json - 02');
+particlesJS.load('particles-container03', 'particlesjs-config.json - 03');
+particlesJS.load('particles-container04', 'particlesjs-config.json - 04');
+particlesJS.load('particles-container05', 'particlesjs-config.json - 05');
+particlesJS.load('particles-container06', 'particlesjs-config.json - 06');

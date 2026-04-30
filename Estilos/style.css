@@ -27,6 +27,72 @@ canvas {
 #particles-container { 
   position: absolute; 
   width: 90%; 
+  height: 100%; 
+  margin: auto;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: 100% 100%; 
+  transform: translate(29px, 214px);
+}
+
+#particles-container01 { 
+  position: absolute; 
+  width: 90%; 
+  height: 70%; 
+  margin: auto;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: 100% 100%; 
+  transform: translate(29px, 214px);
+}
+
+#particles-container02 { 
+  position: absolute; 
+  width: 90%; 
+  height: 70%; 
+  margin: auto;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: 100% 100%; 
+  transform: translate(29px, 214px);
+}
+
+#particles-container03 { 
+  position: absolute; 
+  width: 90%; 
+  height: 70%; 
+  margin: auto;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: 100% 100%; 
+  transform: translate(29px, 214px);
+}
+
+#particles-container04 { 
+  position: absolute; 
+  width: 90%; 
+  height: 70%; 
+  margin: auto;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: 100% 100%; 
+  transform: translate(29px, 214px);
+}
+
+#particles-container05 { 
+  position: absolute; 
+  width: 90%; 
+  height: 70%; 
+  margin: auto;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: 100% 100%; 
+  transform: translate(29px, 214px);
+}
+
+#particles-container06 { 
+  position: absolute; 
+  width: 90%; 
   height: 70%; 
   margin: auto;
   background-size: cover; 
