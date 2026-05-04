@@ -38,12 +38,12 @@ canvas {
 #particles-container01 { 
   position: absolute; 
   width: 90%; 
-  height: 70%; 
+  height: 90%; 
   margin: auto;
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: 100% 100%; 
-  transform: translate(29px, 214px);
+  transform: translate(29px, -167px);
 }
 
 #particles-container02 { 

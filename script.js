@@ -50,7 +50,7 @@ particlesJS.load('particles-container', 'particlesjs-config.json');
 
 particlesJS.load('particles-container01', 'particlesjs-config01.json');
 
-particlesJS.load('particles-container02', 'particlesjs-config03.json');
+particlesJS.load('particles-container02', 'particlesjs-config02.json');
 
-particlesJS.load('particles-container03', 'particlesjs-config05.json');
+particlesJS.load('particles-container03', 'particlesjs-config03.json');
 
