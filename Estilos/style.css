@@ -49,23 +49,23 @@ canvas {
 #particles-container02 { 
   position: absolute; 
   width: 90%; 
-  height: 70%; 
+  height: 100%; 
   margin: auto;
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: 100% 100%; 
-  transform: translate(29px, 214px);
+  transform: translate(29px, 44px);
 }
 
 #particles-container03 { 
   position: absolute; 
   width: 90%; 
-  height: 70%; 
+  height: 600px; 
   margin: auto;
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: 100% 100%; 
-  transform: translate(29px, 214px);
+  transform: translate(29px, -20px);
 }
 
 
