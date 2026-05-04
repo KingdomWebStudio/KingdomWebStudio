@@ -68,38 +68,6 @@ canvas {
   transform: translate(29px, 214px);
 }
 
-#particles-container04 { 
-  position: absolute; 
-  width: 90%; 
-  height: 70%; 
-  margin: auto;
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: 100% 100%; 
-  transform: translate(29px, 214px);
-}
-
-#particles-container05 { 
-  position: absolute; 
-  width: 90%; 
-  height: 70%; 
-  margin: auto;
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: 100% 100%; 
-  transform: translate(29px, 214px);
-}
-
-#particles-container06 { 
-  position: absolute; 
-  width: 90%; 
-  height: 70%; 
-  margin: auto;
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: 100% 100%; 
-  transform: translate(29px, 214px);
-}
 
 /* LOGO */
 .logo img {
@@ -222,7 +190,7 @@ p {
   transform: translateX(-15px);
 }
 
-.gold-line-division04{
+.gold-line-division04 {
   width: 100vw;
   height: 4vh;
 }
@@ -345,7 +313,7 @@ img.imgcard:hover {
 .icons {
   display: inline-block;
   color: #b5996a;
-  padd
+  padding: 25px;
 }
 
 /*PROCESSO*/
