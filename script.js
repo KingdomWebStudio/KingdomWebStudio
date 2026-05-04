@@ -54,3 +54,4 @@ particlesJS.load('particles-container02', 'particlesjs-config02.json');
 
 particlesJS.load('particles-container03', 'particlesjs-config03.json');
 
+document.getElementById("year").textContent = new Date().getFullYear();
