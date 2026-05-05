@@ -322,6 +322,10 @@ img.imgcard:hover {
   margin-top: 30px;
 }
 
+img.mobile {
+  display: none;
+}
+
 .img-process:hover {
   scale: 1.1;
   box-shadow: 0px 0px 20px #d4af373a;
@@ -371,6 +375,19 @@ p.pfoo {
 
   h2 {
     font-size: 20px;
+  }
+
+  .img-process {
+  display:none;
+  }
+
+  img.mobile {
+    width:60vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 
   .lead {
