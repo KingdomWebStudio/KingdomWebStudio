@@ -373,4 +373,9 @@ p.pfoo {
     font-size: 20px;
   }
 
+  .lead {
+    font-size:20px;
+    font-weight: 200;
+  line-height: 30px;  }
+
 }
