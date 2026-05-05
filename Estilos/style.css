@@ -358,11 +358,19 @@ p.pfoo {
 
 /* RESPONSIVO */
 @media (max-width: 768px) {
-  .projects, .cards, .steps {
+
+  .projects,
+  .cards {
     flex-direction: column;
+    align-items: center;
   }
 
-  h1 {
-    font-size: 26px;
+  .list {
+    grid-template-columns: 1fr;
   }
+
+  h2 {
+    font-size: 20px;
+  }
+
 }
