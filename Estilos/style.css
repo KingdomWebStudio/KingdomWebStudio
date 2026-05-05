@@ -383,10 +383,7 @@ p.pfoo {
 
   img.mobile {
     width:60vw;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     margin: auto;
   }
 
